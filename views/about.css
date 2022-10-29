@@ -1,0 +1,94 @@
+header h1{
+    padding:40px;
+    font-size:100px;
+    text-align: center;
+    color: rebeccapurple;
+}
+header ul{
+    display:flex;
+    padding:10px;
+    font-size:18px;
+    font-weight:200;
+    justify-content: left;
+    list-style-type: none;
+    border-bottom:0.1rem solid white;
+    position: fixed;
+    top: 0%;
+    background: rebeccapurple;
+    width: 100%;
+    z-index: 1;
+}
+header li{
+    margin:0px 40px;
+}
+header li a{
+    text-decoration: none;
+    color:white;
+}
+header h6{
+    padding:10px;
+    font-size:20px;
+    font-weight: normal;;
+    border-bottom: 0.1rem solid white;
+}
+header h6 a {
+    text-decoration: none;
+    color:white;
+}
+
+
+
+
+.about-section-image-paragraph{
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+    background-color: #FFF5E4;
+    color:#E94560;
+}
+
+.about-section-paragraph{
+    text-align: center;
+    margin-top: 50px;
+    font-size: larger;
+
+}
+
+footer{
+    display:flex;
+    margin-top:40px;
+    padding:20px;
+    background:rebeccapurple;
+}
+footer .footer-title{
+    text-align: center;
+    color:white;
+    width:50%;
+    font-size:50px;
+    font-weight:bold;
+    margin:0 auto;
+
+}
+footer .footer-image-block{
+    width:50%;
+    display:flex;
+    align-items:center;
+    justify-content: space-around;
+   
+}
+.footer-image-block ul{
+    list-style-type: none;
+    display:flex;
+   
+}
+.footer-image-block li{
+    padding:10px;
+    margin:0px 20px;
+    background: rebeccapurple;
+}
+.footer-image-block li:hover{
+    background:rebeccapurple;
+}
+.footer-image-block img{
+    width:30px;
+}

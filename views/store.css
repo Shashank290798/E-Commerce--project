@@ -1,0 +1,289 @@
+header h1{
+    padding:40px;
+    font-size:100px;
+    text-align: center;
+    color: rebeccapurple;
+}
+header ul{
+    display:flex;
+    padding:10px;
+    font-size:18px;
+    font-weight:200;
+    justify-content: left;
+    list-style-type: none;
+    border-bottom:0.1rem solid white;
+    position: fixed;
+    top: 0%;
+    background: rebeccapurple;
+    width: 100%;
+    z-index: 1;
+}
+header li{
+    margin:0px 40px;
+}
+header li a{
+    text-decoration: none;
+    color:white;
+}
+header h6{
+    padding:10px;
+    font-size:20px;
+    font-weight: normal;;
+    border-bottom: 0.1rem solid white;
+}
+header h6 a {
+    text-decoration: none;
+    color:white;
+}
+
+h1{
+    background-color:whitesmoke;
+    padding: 25px;
+    text-align: center;
+}
+
+.bag{
+    overflow: hidden;
+    width:280px;
+    margin:50px;
+}
+.row-of-bag{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.section-of-bag{
+    padding: 20px 30px;
+    margin: auto;
+    max-width: 900px;
+}
+
+/* .row-of-bag
+{
+    margin: 0px 10px;
+    overflow:hidden;
+} */
+/* 
+#rows{
+    display: flex;
+} */
+/* .bag{
+    width:450px;
+    margin: 100px;
+    border:2px solid black;
+} */
+
+/* h4{
+    text-align: center;
+    font-size: 20px;
+} */
+
+/* .price-cart{
+    font-size: 20px;
+    text-align: center;
+} */
+
+/* .price{
+    font-size: 20px;
+    color: #967E76;
+} */
+/* .addtocart{
+    padding: 10px;
+    font-size: 15px;
+    background-color: #FFD1D1;
+    border:#FFD1D1 ;
+    border-radius: 15px;
+} */
+
+footer{
+    background-color: #967E76;
+    flex-direction: row-reverse;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.footer-images{
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+h3{
+    font-size: 15px;
+    margin: 30px;
+}
+/* .section-of-bag{
+    background-color: #FFF5E4;
+    margin:0px 200px;
+} */
+
+.cart-button{
+    top:20px;
+    right:20px;
+}
+
+.section-home{
+    background-color: #c6c4c13e;
+}
+
+.home-image-paragraph{
+    display:flex;
+    flex-direction: row;
+    margin:50px;
+}
+
+.home-image{
+    border-radius: 20px;
+    margin:20px;
+}
+
+.home-paragraph{
+    margin:25px;
+    font-size: 20px;
+}
+
+.home-autotext-div{
+    width:100%;
+    height:60vh;
+    background-color: #EEF2E6;
+    color: #b9a95f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.home-autotext-div h2{
+    font-size: 25px;
+    font-weight: 100;
+}
+
+.cart-row{
+    display: flex;
+  justify-content: center;
+}
+
+.cart-display-section{
+    position:absolute;
+    margin:0;
+    display: none;
+    top:50px;
+    height: 95%;
+    right:0;
+    background-color: rebeccapurple;
+    border: 2px solid black;
+    min-height: 50vh;
+    text-align: center;
+    align-items: center;
+    justify-content: center;   
+
+}
+
+.cart-heading-name{
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.cart-display-section.active{
+    display: block;
+}
+
+.cart-row-item-quantity{
+    width:20px;
+    margin:20px 0px 20px 40px;
+}
+
+.cart-row-item-name{
+    padding: 20px;
+}
+
+
+
+#close{
+    position:absolute;
+    top:20px;
+    right: 5px;
+    padding: 0.1rem;
+    font-size: 15px;
+    border:2px solid black;
+}
+
+.show-cart{
+    display: flex;
+    justify-content: center;
+}
+
+.cart-items-row-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.purchase{
+    flex-direction: row-reverse;
+    font-size:25px;
+    margin:20px;
+    position: relative;
+}
+
+#container{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: rebeccapurple;
+    border-radius: 5px;
+    color: aliceblue;
+}
+
+/* .toast{
+    background-color: rebeccapurple;
+    border-radius: 5px;
+    color: aliceblue;
+    padding: 2rem;
+    margin: 1rem;
+    border-radius: 3rem;
+} */
+#purchase{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+footer{
+    display:flex;
+    margin-top:40px;
+    padding:20px;
+    background:rebeccapurple;
+}
+footer .footer-title{
+    text-align: center;
+    color:white;
+    width:50%;
+    font-size:50px;
+    font-weight:bold;
+    margin:0 auto;
+
+}
+footer .footer-image-block{
+    width:50%;
+    display:flex;
+    align-items:center;
+    justify-content: space-around;
+   
+}
+.footer-image-block ul{
+    list-style-type: none;
+    display:flex;
+   
+}
+.footer-image-block li{
+    padding:10px;
+    margin:0px 20px;
+    background: rebeccapurple;
+}
+.footer-image-block li:hover{
+    background:rebeccapurple;
+}
+.footer-image-block img{
+    width:30px;
+}
